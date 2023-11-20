@@ -1,0 +1,86 @@
+
+#intro {
+	background-image: url('../image/bg_2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+  }
+
+.box_login{
+	padding-top: 150px;
+}
+
+.head-login{
+	padding-top: 28px;
+	
+}
+
+.head-login h1,h3 {
+	font-weight: 700;
+	color: rgba(57, 57, 57, 1);
+}
+
+.form_text input{
+	border-color: rgba(0, 0, 0, 1);
+	background-color: rgba(228, 225, 201, 1);
+}
+
+.form_text select{
+	border-color: rgba(0, 0, 0, 1);
+	background-color: rgba(228, 225, 201, 1);
+}
+
+.form_text textarea{
+	border-color: rgba(0, 0, 0, 1);
+	background-color: rgba(228, 225, 201, 1);
+}
+
+
+.form_text label{
+	font-weight: 700;
+	color: rgba(57, 57, 57, 1);
+	text-transform: uppercase;
+}
+
+.box_link:last-child{
+	padding-bottom: 15px;
+}
+
+.link_regis{
+	color:rgba(86, 175, 111, 1) ;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.link_regis:hover{
+	color:rgb(142, 86, 175) ;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.btn {
+	margin-bottom: 15px;
+	background-color: rgba(63, 97, 45, 1);
+}
+
+.login_box {
+	display: flex;
+	background-color: rgba(254, 250, 220, 1);
+	border-radius: 54px;
+	margin-left: 342px;
+	margin-right: 342px;
+	padding-right: 38px;
+	padding-left: 38px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	.login_box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 42px;
+		margin-right: 42px;
+	}
+}

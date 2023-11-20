@@ -1,0 +1,555 @@
+.dropbro ul li a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1);
+	font-weight: 700;
+	font-size: 20;
+	padding-right: 2rem;
+
+}
+
+.btn_upload{
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 20px;
+}
+
+.drop {
+	border: none;
+	color: black;
+	background-color: rgba(254, 250, 220, 1);
+	font-weight: 700;
+}
+
+
+.btn_upload button {
+	border: none;
+	border-radius: 5px;
+	padding: 8px 12px 8px 12px;
+	background-color: rgba(105, 117, 226, 1);
+}
+
+.btn_upload button a {
+	color: azure;
+	text-decoration: none
+}
+
+.gallery{
+	object-fit: cover;
+	border-radius: 8px;
+	background-position: center;
+	height: 421px;
+	width: 905px;
+}
+
+.body_text h3 {
+	color: rgba(75, 75, 75, 1);
+	size: 10px;
+}
+
+.body_text p {
+	color: rgba(140, 140, 140, 1);
+	font-size: 20px;
+}
+
+.btn_booking {
+	background-color: rgba(105, 117, 226, 1);
+	border: none;
+	padding: 12px 4px 12px 4px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.btn_booking a {
+	text-decoration: none;
+	font-weight: 700;
+	width: 100%;	
+	color: white;
+}
+.sectionupper {
+	display: flex;
+	background-color: rgba(243, 179, 145, 1);
+}
+
+.body_home {
+	background-color: rgba(243, 179, 145, 1);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.sectionmiddle{
+	background-color: rgba(254, 250, 220, 1);
+	width: auto;
+	height: auto;
+}
+
+.sectionbottom {
+	padding-top: 55px;
+	padding-bottom: 3rem;
+	display: flex;
+ 	flex-direction: column;
+	flex-shrink: 0;
+	height: 192px;
+	background-color: rgba(254, 250, 220, 1);
+	width: auto;
+	height: auto;
+}
+
+.judul_text{
+	color: rgba(57, 57, 57, 1);
+	padding-top: 61px;
+	text-transform: uppercase;
+}
+
+.text_page p {
+	color: rgba(57, 57, 57, 1);
+	text-transform: capitalize;
+}
+
+.text_page {
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	text-transform: lowercase;
+
+}
+
+.box_image{
+	display: flex;
+	padding-top: 79px;
+	justify-content: space-between;
+}
+
+.image_preview{
+	width: 100%;
+	height: 351px;
+  	object-fit: cover;
+	border-radius: 20px;
+  	
+}
+
+.imageback{
+	max-width: 100%;
+  	height: 100%;
+	object-fit: cover;
+}
+
+.boxcontain {
+	margin-top: 124px;
+	margin-left: 63px;
+	border-style: solid;
+	border-color:rgba(254, 234, 0, 1) ;
+	border-width: 10px 0px 10px 0px;
+}
+
+.judul{
+	width: 100%;
+
+}
+
+.card_box {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+
+.box_profile{
+	display: flex;
+	margin-top: 30px;
+	justify-content: flex-start;
+	gap: 200px	;
+}
+
+.profile_info{
+	box-shadow: 6px 10px 19px 0px rgba(0,0,0,0.20);
+	padding: 10px 20px 15px 20px;
+	border-radius: 1rem;
+}
+
+.button_profile{
+	display: flex;
+	flex-direction: column;
+	box-shadow: 6px 10px 19px 0px rgba(0,0,0,0.20);
+	padding: 10px 20px 15px 20px;
+	border-radius: 1rem;
+	align-items: center;
+}
+
+.paggination strong {
+	color: #626262;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.btn-booking{
+	border: none;
+	padding: 8px 7px 7px 7px;
+	border-radius: 5px;
+}
+
+
+.btn-booking a{
+	font-weight: 700;
+	text-decoration: none;
+}
+
+
+.paggination a {
+	color: #626262;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.img_profile {
+	width: 236px;
+	height: 236px;
+	object-fit: cover;
+	border-radius: 50%;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.img_hover:hover .img_profile {
+	opacity: 0.3;
+  }
+  
+  .img_hover:hover .middle {
+	opacity: 1;
+	border-radius: 8px;
+	margin-top: 1rem;
+  }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  background-color: #6975E2;
+  color: #D9D9D9;
+  text-align: center;
+ 
+  }
+
+.img_profile:hover{
+	background-color: #D9D9D9;
+}
+
+.info_profile p {
+	color: rgba(98, 98, 98, 1);
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.border_text{
+	border: solid 1px;
+	border-color: rgba(113, 113, 113, 1);
+	border-radius: 10px;
+	padding-right: 266px;
+	padding-left: 16px;
+	
+}
+
+.detail-btn{
+	padding: 10px 13px 10px 13px;
+	border: none;
+	border-radius: 5px;
+	background-color: #6975E2;
+}
+
+.box-report{
+	display: flex;
+	text-align: center;
+}
+
+
+
+.report-card{
+	background-color: #6975E2;
+	padding: 10px 15px 10px 15px;
+	border-radius: 10px;
+	margin-right: 2rem;
+	color: #ffffff;
+}
+
+.report-card h3{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.detail-btn a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.set-lunas {
+	background-color: #69A648;
+	padding: 10px 13px 10px 13px;
+	border-radius: 5px;
+	border: none;
+}
+
+.set-lunas a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+.rdr {
+	border: 2px solid #D9D9D9;
+	border-radius: 7px;
+	margin-bottom: 0px;
+}
+
+.btn_box {
+	background-color: #6975E2;
+	margin-bottom: 21px;
+	text-align: center;
+	border-radius: 7px;
+	width: 357px;
+	transition: 300ms;
+}
+
+.btn_box:hover{
+	transition: 300ms;
+	font-size: 1.5rem;
+	background-color: #E26969;
+}
+
+.btn_box a:hover{
+	font-size: 1.5rem;
+	transition: 300ms;
+}
+
+
+.btn a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	transition: 300ms;
+}
+
+.bukti-upload{
+	display: flex;
+	justify-content: space-between;
+}
+
+.image-detail {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 10%;
+}
+
+.btn_box button{
+	border: none;
+}
+
+.box_card button a{
+	text-decoration: none;
+	color: black;
+}
+
+.box_card {
+	padding: 37px 42px 37px 42px ;
+	background-color:rgb(255, 255, 255);
+	border-radius: 5px;
+	margin-top: 46px;
+}
+
+.img_card {
+	width: 300px;
+	height: 209px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	object-fit: cover;
+}
+
+.btn_B {
+background-color: #E26969;
+border: none;
+}
+
+.btn_B:hover{
+	background-color: #E26969;
+}
+
+.btn_B a {
+	color: azure;
+	font-size: 15px;
+	
+}
+
+
+.btn_L {
+	background-color: #69A648;
+	border: none;
+}
+
+.btn_L:hover{
+	background-color: #69A648;
+}
+
+.btn_L a {
+	color: azure;
+	font-size: 15px;
+}
+
+.box_invoice{
+	border: 1px solid;
+	
+}
+
+.invoice_box{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.btn-back{
+	background-color: rgba(105, 117, 226, 1);
+	border: none;
+	padding: 8px 17px 8px 17px;
+	border-radius: 5px;
+}
+
+.btn-back a{
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.btn-print{
+	color: aliceblue;
+	background-color: rgba(185, 185, 185, 1);
+	border: none;
+	padding: 8px 17px 8px 17px;
+	border-radius: 5px;
+}
+
+.btn-box{
+	margin-top: 2rem;
+}
+
+.navbar-collapse{
+	flex-grow: 0;
+}
+
+
+
+.judul h1 {
+	color: rgba(254, 234, 0, 1);
+	width: 50%;
+	padding-top: 49px;
+	text-transform: uppercase;
+}
+
+.content_text {
+	color: rgba(254, 234, 0, 1);
+	width: 30%;
+	font-weight: 300;
+	font-size: 20px;
+	padding-bottom: 36;
+}
+
+.navbar-brand{
+	color: rgba(75, 75, 75, 1);
+	font-weight: 700;
+	font-size: 36px;
+	padding-left: 45px;
+}
+
+.headnav {
+	background-color: rgba(254, 250, 220, 1);
+	z-index: 1000;
+}
+
+.profile {
+	padding-left: 66px;
+	padding-right: 66px;
+	border-style: solid;
+	border-width: 0px 0px 0px 2px;
+}
+
+.req ul {
+	margin-bottom: 136px;
+}
+
+.box_footer {
+	padding-left: 280px;
+	padding-right: 280px;
+}
+
+.content_footer{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+	
+}
+
+.content_footer p a {
+	color: rgba(57, 57, 57, 1);
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+@media screen and (max-width: 1030px) {
+	.judul{
+		width: auto;
+	}
+	
+	.judul h1 {
+		color: rgba(254, 234, 0, 1);
+		width: auto;
+		font-size: 30px;
+		padding-top: 49px;
+		text-transform: uppercase;
+	}
+	
+	.content_text {
+		color: rgba(254, 234, 0, 1);
+		width: auto;
+		font-weight: 300;
+		font-size: 25px;
+		padding-bottom: 36;
+	}
+
+	.boxcontain {
+		margin-top: 100px;
+	
+		border-style: solid;
+		border-width: 8px 0px 8px 0px;
+	}
+}
+
+@media screen and (max-width: 1540px) {
+	.judul{
+		width: auto;
+	}
+	
+	.judul h1 {
+		color: rgba(254, 234, 0, 1);
+		width: auto;
+		font-size: 30px;
+		padding-top: 49px;
+		text-transform: uppercase;
+	}
+	
+	.content_text {
+		color: rgba(254, 234, 0, 1);
+		width: auto;
+		font-weight: 300;
+		font-size: 20px;
+		padding-bottom: 36;
+	}
+
+	.boxcontain {
+		margin-top: 100px;
+		padding-bottom: 93px;
+		border-style: solid;
+		border-width: 8px 0px 8px 0px;
+	}
+}
+
